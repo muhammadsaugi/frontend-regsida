@@ -1,7 +1,6 @@
 # REGSIDA — Regulasi Daerah Satu Data & AI Navigator
 
-Prototipe untuk Kompetisi KMIPN VIII 2026, Kategori E-Government.
-Implementasi atas nama **Kabupaten Sidoarjo**.
+Implementasi prototype atas nama **Kabupaten Sidoarjo**.
 
 ## Menjalankan secara lokal
 
@@ -39,15 +38,6 @@ Buka `http://localhost:5173`.
 | Staf OPD | `198501012010011001` |
 | Bagian Hukum | `198703152011012002` |
 | Inspektorat | `198209202009011003` |
-
-## Deploy ke Vercel (frontend)
-
-1. Push repo ke GitHub.
-2. Import project di https://vercel.com — framework Vite, build `npm run build`, output `dist`.
-3. Set environment variable `VITE_API_URL` ke URL backend Laravel production.
-4. Deploy.
-
-Backend (Laravel) dan AI-service (FastAPI) perlu di-deploy terpisah (mis. Railway/Render).
 
 ## Struktur fitur
 
