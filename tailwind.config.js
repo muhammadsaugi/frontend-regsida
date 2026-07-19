@@ -1,0 +1,75 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        ink: {
+          50: "#f4f6f7",
+          100: "#e3e8ea",
+          200: "#c2cdd2",
+          300: "#94a5ac",
+          400: "#647a83",
+          500: "#465c66",
+          600: "#34464f",
+          700: "#283740",
+          800: "#1d2832",
+          900: "#141d24",
+          950: "#0b1116",
+        },
+        brass: {
+          50: "#fbf7ed",
+          100: "#f5ecd2",
+          200: "#e9d4a1",
+          300: "#dcb86c",
+          400: "#cd9f44",
+          500: "#b9852f",
+          600: "#996725",
+          700: "#7a4f21",
+          800: "#623f20",
+          900: "#52351e",
+        },
+        sirah: {
+          50: "#fbf1ef",
+          100: "#f4dcd6",
+          200: "#e6b3a7",
+          300: "#d3826e",
+          400: "#bd5940",
+          500: "#9f3f29",
+          600: "#822f1d",
+          700: "#69271a",
+          800: "#56221a",
+          900: "#3f1813",
+        },
+        sawo: {
+          50: "#f2f5ed",
+          100: "#e1e9d4",
+          200: "#c2d2ab",
+          300: "#9eb87d",
+          400: "#7c9d5b",
+          500: "#5f7f42",
+          600: "#4a6533",
+          700: "#3c5129",
+          800: "#314123",
+          900: "#27331c",
+        },
+      },
+      fontFamily: {
+        display: ["'Fraunces'", "ui-serif", "Georgia", "serif"],
+        sans: ["'Public Sans'", "ui-sans-serif", "system-ui", "sans-serif"],
+        mono: ["'IBM Plex Mono'", "ui-monospace", "monospace"],
+      },
+      letterSpacing: {
+        widest2: "0.18em",
+      },
+      boxShadow: {
+        card: "0 1px 2px 0 rgba(11,17,22,0.06), 0 1px 1px 0 rgba(11,17,22,0.04)",
+        elevated: "0 4px 16px -4px rgba(11,17,22,0.12), 0 2px 6px -2px rgba(11,17,22,0.06)",
+      },
+      backgroundImage: {
+        "grid-pattern": "linear-gradient(rgba(20,29,36,0.04) 1px, transparent 1px), linear-gradient(90deg, rgba(20,29,36,0.04) 1px, transparent 1px)",
+      },
+    },
+  },
+  plugins: [],
+};
